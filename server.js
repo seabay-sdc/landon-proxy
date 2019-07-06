@@ -8,4 +8,3 @@ app.use(express.static('public'));
 app.use(express.json());
 
 app.listen(port, () => console.log(`Listening on ${port}`));
-
